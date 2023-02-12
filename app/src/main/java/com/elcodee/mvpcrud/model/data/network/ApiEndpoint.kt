@@ -1,6 +1,6 @@
-package com.elcodee.mvpcrud.Model.data.network
+package com.elcodee.mvpcrud.model.data.network
 
-import com.elcodee.mvpcrud.Model.data.response.ResponseGet
+import com.elcodee.mvpcrud.model.data.response.ResponseGet
 import retrofit2.Call
 import retrofit2.http.GET
 

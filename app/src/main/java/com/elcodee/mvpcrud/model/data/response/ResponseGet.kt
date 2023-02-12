@@ -1,4 +1,4 @@
-package com.elcodee.mvpcrud.Model.data.response
+package com.elcodee.mvpcrud.model.data.response
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,4 +1,4 @@
-package com.elcodee.mvpcrud.Model.data.network
+package com.elcodee.mvpcrud.model.data.network
 
 
 import com.elcodee.mvpcrud.BuildConfig

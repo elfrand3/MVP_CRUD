@@ -1,4 +1,4 @@
-package com.elcodee.mvpcrud.Model.contract
+package com.elcodee.mvpcrud.model.contract
 
 interface MainContract {
 
