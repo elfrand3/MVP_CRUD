@@ -8,7 +8,7 @@ data class ResponseGet(
     @SerializedName("total") val total: Int,
     @SerializedName("total_pages") val total_pages: Int,
     @SerializedName("data") val data: List<DataItem>,
-    @SerializedName("support") val support: List<SupportItem>,
+    @SerializedName("support") val support: SupportItem
 )
 data class DataItem(
     @SerializedName("id") val id: Int,
