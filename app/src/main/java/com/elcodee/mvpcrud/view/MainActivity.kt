@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity(), MainContract.View {
     }
 
     override fun initListener() {
+        binding.btnPost
     }
 
     override fun onMessage(Message: String) {
