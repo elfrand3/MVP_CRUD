@@ -1,5 +1,6 @@
 package com.elcodee.mvpcrud.view
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -32,7 +33,9 @@ class MainActivity : AppCompatActivity(), MainContract.View {
     }
 
     override fun initListener() {
-        binding.btnPost
+        binding.btnPost.setOnClickListener {
+            startActivity(Intent(this@MainActivity, PostActivity::class.java))
+        }
     }
 
     override fun onMessage(Message: String) {

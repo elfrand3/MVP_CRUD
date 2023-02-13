@@ -15,6 +15,6 @@ interface ApiEndpoint {
 
     @POST("api/users")
     fun postData(
-        @Body Data: JsonObject
+        @Body data: JsonObject
     ): Call<ResponsePost>
 }
