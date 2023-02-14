@@ -36,6 +36,9 @@ class MainActivity : AppCompatActivity(), MainContract.View {
         binding.btnPost.setOnClickListener {
             startActivity(Intent(this@MainActivity, PostActivity::class.java))
         }
+        binding.btnPut.setOnClickListener {
+            startActivity(Intent(this@MainActivity, PutActivity::class.java))
+        }
     }
 
     override fun onMessage(Message: String) {

@@ -7,11 +7,25 @@
     android:orientation="vertical"
     tools:context=".view.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Post Data Regres.in"
-        android:id="@+id/btn_post"/>
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Data Regres.in"
+            android:id="@+id/btn_post"/>
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Put Data Regres.in"
+            android:id="@+id/btn_put"/>
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="5dp"
